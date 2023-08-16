@@ -1,0 +1,8 @@
+# Default ignored files
+*.sqlite3
+*.db
+__pycache__/
+*.pyc
+test*
+.idea
+venv
