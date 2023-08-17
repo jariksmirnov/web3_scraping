@@ -7,6 +7,8 @@ from datetime import date
 
 from companies import companies_save
 
+from apply_link_w import get_apply_link_web3
+
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
            "Accept-Encoding": "gzip, deflate",
            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8", "DNT": "1",
@@ -159,6 +161,7 @@ def main():
         item = data_list[1]
         tags = data_list[2]
         role = data_list[3]
+        apply_link = get_apply_link_web3(url=url)
 
         json_data = json.loads(item)
 
@@ -193,7 +196,7 @@ def main():
             "compensationMin": json_data.get('baseSalary').get('value').get('minValue'),
             "compensationMax": json_data.get('baseSalary').get('value').get('maxValue'),
             "location": json_data.get('jobLocation').get('address').get('addressCountry'),
-            "applyLink": '',
+            "applyLink": apply_link,
             "sticky": '',
             "highlight": '',
             "remote": remote,
