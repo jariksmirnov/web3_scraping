@@ -53,7 +53,7 @@ def scraping_urls_cryptojob(url):
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
             links_list.append(link)
-            print(f"Adding in db new link number {len(links_list)}")
+            print(f"Adding in cryptojob db new link number {len(links_list)}")
 
             # save links list back to excel
             links_data = {'link': links_list}
@@ -128,7 +128,7 @@ def main():
         item = data_list[1]
         json_data = item
 
-        print(row, 'type json', type(json_data))
+        print(row, 'cryptojob', type(json_data))
 
         # work with companies db
 

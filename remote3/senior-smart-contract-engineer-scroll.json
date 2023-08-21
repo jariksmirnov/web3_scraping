@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Senior Smart Contract Engineer",
+    "slug": "senior-smart-contract-engineer-scroll",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Senior Smart Contract Engineer\",\n      \"description\" : \"<p>Scroll is hiring a full-time senior smart contract engineer</p>\",\n      \"datePosted\" : \"2023-01-21\",\n      \"validThrough\" : \"2023-3-22 13:03\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Scroll\",\n        \"sameAs\" : \"https://scroll.io/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1674708972445x906552417823785600/scroll-io-logo-min.jpeg\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Worldwide\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Worldwide",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Scroll is hiring a full-time senior smart contract engineer</p>",
+    "createdOn": "2023-01-21",
+    "companyId": 48
+}

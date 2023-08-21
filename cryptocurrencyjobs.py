@@ -58,7 +58,7 @@ def scraping_urls_crypto(url):
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
             links_list.append(link)
-            print(f"Adding in db new link number {len(links_list)}")
+            print(f"Adding in cryptocurrencyjobs db new link number {len(links_list)}")
 
             # save links list back to excel
             links_data = {'link': links_list}
@@ -94,10 +94,8 @@ def getting_data_crypto(url):
         position = 0
 
     tags = tags[position+1:position+5]
-    print(tags)
     role = tags[0]
     tags = tags[1:]
-    print('role ', role, 'tags ', tags)
 
     soup = soup.prettify()
     soup = soup.replace('\U0001f4af', '')
@@ -159,7 +157,7 @@ def main():
         item = item.replace("\n", "")
         json_data = json.loads(item)
 
-        print(row, 'type json', type(json_data))
+        print(row, 'cryptocurrencyjobs', type(json_data))
 
         # work with companies db
 

@@ -53,7 +53,7 @@ def scraping_urls_linkedin(url):
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
             links_list.append(link)
-            print(f"Adding in db new link number {len(links_list)}")
+            print(f"Adding in linkedin db new link number {len(links_list)}")
 
             # save links list back to excel
             links_data = {'link': links_list}
@@ -97,10 +97,17 @@ def getting_data_linkedin(url):
 
     items = soup.find_all(class_="description__job-criteria-text description__job-criteria-text--criteria")
     items = [item.get_text().strip() for item in items]
-    
-    job_type = items[1]
-    role = items[2]
-    tags = [word.strip() for word in items[3].split(',')]
+
+    if items[0] != 'Contract':
+        job_type = items[1]
+        role = items[2]
+        tags = [word.strip() for word in items[3].split(',')]
+    else:
+        job_type = items[0]
+        role = ''
+        tags = ''
+
+
 
     description = soup.find('div', class_='show-more-less-html__markup show-more-less-html__markup--clamp-after-5 relative overflow-hidden')
     description = description.get_text().strip()
@@ -182,7 +189,7 @@ def main():
         data_comp = data_list[1]
         data = data_list[2]
 
-        print(row, 'type json')
+        print(row, 'linkedin')
 
         # saving info about company and getting company_id
         company_id = companies_save(data_comp=data_comp)

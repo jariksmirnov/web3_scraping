@@ -1,0 +1,24 @@
+{
+    "id": 3292,
+    "title": "Senior Solidity Engineer",
+    "slug": "senior-solidity-engineer-6",
+    "jobType": "full-time",
+    "role": "defi",
+    "tags": [
+        "defi",
+        "engineering",
+        "ethereum",
+        "senior",
+        "solidity"
+    ],
+    "compensationMin": "120000",
+    "compensationMax": "180000",
+    "location": "",
+    "applyLink": "https://jobs.lever.co/ethenalabs/e63d13da-f523-499e-9361-63c994bbfe2c?lever-origin=applied&lever-source%5B%5D=myweb3jobs.com",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "Who We Are:</h3>\nEthena Labs is building the first ETH based delta-neutral stablecoin. Arthur Hayes is a founding advisor and the team has deep experience across traditional finance and crypto engineering from firms such as Cerberus, Wintermute, Aave, Blockdaemon and Kaiko. Backed by the top exchanges and trading entities in the space.</p>\nWhat we are Doing:</h3>\nWe are building derivative infrastructure to enable Ethereum to transform into the Global Internet Bond via delta-neutral derivatives positions, to create the first crypto-native, yield bearing stablecoin: USDe.</p>\n\u00a0</p>\nWe believe creating a stablecoin which is not reliant on existing banking infrastructure is the single most important product in crypto today.</p>\n\u00a0</p>\nUSDe will form the first part of a broader ecosystem of products we are building including money markets, and internal trade matching between product lines.</p>\n\u00a0</p>\nJoin us!!</p>\n\u00a0</p>\nThe ideal candidate would be in one of the following time zones: EST, GMT, CET, EEST</p>\nWho We are Looking For:</h3>\n\nAn Engineer who is passionate about building products/applications within Defi.</li>\nIndividual who is excited by the opportunity to join an early stage team and drive a product from zero to one.</li>\nAt least 2 years of experience in developing smart contracts for live blockchain apps and can provide examples of prior work.</li>\nAn individual who is curious and always looking to learn new techniques and methods on the overlap between frontier technology and financial concepts.</li>\n</ul>\nResponsibilities:</h3>\n\nYou will work on designing and implementing secure and efficient smart contracts using Solidity which enables users to mint and stake USDe.</li>\nDesign and build automated delta-neutral derivative strategies within smart contracts which will implement customised algorithms to efficiently capture the most efficient arbitrage opportunities across DeFi and centralised derivative venues.</li>\nWorking with custody and exchange providers to build secure connectivity to various venues via our smart contracts.</li>\nEnvision and develop features to help build new features around the core stablecoin product, including money markets and internal AMM functionality.</li>\nCreative license to push the boundaries of Defi design.</li>\nCollaborate with the team and cross-functional partners on all aspects of product development including Quantitative Engineering, Offchain Engineering and mentor team members to refine their technical and architectural skills</li>\n</ul>\nRequirements:</h3>\n\n4+ years of general software engineering industry experience with at least 2+ years of Solidity experience and working directly on a mainnet launched DeFi application.</li>\nHave an advanced knowledge of Git, GitHub, Hardhat/Foundry/Assembly (or other similar frameworks).</li>\nHave an in-depth and up-to-date practical knowledge of the DeFi (and broader crypto) landscape.</li>\nExperience interacting with exchange APIs is preferred but not required.</li>\nDeep knowledge of Solidity safety and best practices for bug-free smart contracts</li>\nStrong test suite knowledge and experience.</li>\nAbility to work in areas beyond your comfort zone and motivated by personal growth in learning about financial concepts which overlap directly in the engineering implementation.</li>\nKnowledge of Python also highly preferred but not required.</li>\nFluent English, both written and spoken</li>\n</ul>\nOur Engineering Stack:</h3>\n\nFrontend: React, NextJS, Wagmi, Viem, TailwindCSS</li>\nBackend: Python, Solidity, SQL, GraphQL, DGraph, Docker, AWS, Ethereum.</li>\n</ul>\n$125,000 \u2013 $175,000 a year</p>\n\u00a0</p>\nIf you subscribe to the mission \u201cTo provide access to trustless, globally accessible and secure, money & savings</span>\u201d then we want to hear from you!</p>\n\u00a0</p>\nWe look forward to receiving your application and will be in touch after having a chance to review.</p>\n",
+    "createdOn": "2023-08-20T16:38:55",
+    "companyId": 62
+}

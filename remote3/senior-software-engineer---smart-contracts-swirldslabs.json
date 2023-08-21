@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Senior Software Engineer - Smart Contracts",
+    "slug": "senior-software-engineer---smart-contracts-swirldslabs",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Senior Software Engineer - Smart Contracts\",\n      \"description\" : \"<p>Swirldslabs is hiring a full-time senior software engineer - smart contracts</p>\",\n      \"datePosted\" : \"2023-01-19\",\n      \"validThrough\" : \"2023-3-20 04:47\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Swirldslabs\",\n        \"sameAs\" : \"https://swirldslabs.com/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1671012473149x951797051553144800/axMoFTl__400x400.jpg\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Worldwide\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Worldwide",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Swirldslabs is hiring a full-time senior software engineer - smart contracts</p>",
+    "createdOn": "2023-01-19",
+    "companyId": 49
+}

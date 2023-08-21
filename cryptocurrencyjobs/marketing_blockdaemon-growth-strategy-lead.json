@@ -1,0 +1,24 @@
+{
+    "id": "string(optional)",
+    "title": "Growth Strategy Lead",
+    "slug": "marketing_blockdaemon-growth-strategy-lead",
+    "jobType": [
+        "CONTRACTOR"
+    ],
+    "role": "Marketing",
+    "tags": [
+        "Non-Tech",
+        "Web3",
+        "Company profile"
+    ],
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "United Kingdom",
+    "applyLink": "https://boards.greenhouse.io/blockdaemon/jobs/4938769004?gh_src=cryptocurrencyjobs.co",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "    Blockdaemon is looking to hire a Growth Strategy Lead to join their team. This is a contract position that can be done remotely anywhere in the United States or on-site in London, or New York NY.",
+    "createdOn": "2023-08-21",
+    "companyId": 24
+}

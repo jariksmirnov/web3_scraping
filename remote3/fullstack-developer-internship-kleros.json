@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Fullstack Developer Internship",
+    "slug": "fullstack-developer-internship-kleros",
+    "jobType": "INTERNSHIP",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Fullstack Developer Internship\",\n      \"description\" : \"<p>Kleros is hiring a internship fullstack developer internship</p>\",\n      \"datePosted\" : \"2023-01-22\",\n      \"validThrough\" : \"2023-3-23 03:50\",\n      \"employmentType\" : \"INTERNSHIP\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Kleros\",\n        \"sameAs\" : \"https://kleros.io/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1674358659832x782261555477422200/download%20%2813%29.jpg\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Worldwide\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Worldwide",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Kleros is hiring a internship fullstack developer internship</p>",
+    "createdOn": "2023-01-22",
+    "companyId": 46
+}

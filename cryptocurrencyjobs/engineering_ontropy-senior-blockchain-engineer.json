@@ -1,0 +1,24 @@
+{
+    "id": "string(optional)",
+    "title": "Senior Blockchain Engineer",
+    "slug": "engineering_ontropy-senior-blockchain-engineer",
+    "jobType": [
+        "FULL_TIME"
+    ],
+    "role": "Engineering",
+    "tags": [
+        "Blockchain Engineer",
+        "Cryptography",
+        "Engineer"
+    ],
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "",
+    "applyLink": "mailto:jose@ontropy.io?subject=Senior%20Blockchain%20Engineer%20at%20Ontropy%20on%20Cryptocurrency%20Jobs",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "    <p>Ontropy is seeking a skilled and dedicated Blockchain Engineer to play an instrumental role in advancing our cutting-edge cryptographic technologies and fostering wider adoption of Web3.</p><p>Our protocol leverages advanced cryptographic techniques, including Account Abstraction, BLS signatures, and cutting-edge cryptographical commitments, to create more secure, efficient, and transparent Web3 ecosystems.</p><h2>Responsibilities:</h2><ul><li>Develop and deploy a peer-to-peer cryptographic system.</li><li>Implement secure on-chain verification processes and manage efficient off-chain computations.</li><li>Advance Verifiably Fair Randomness Generation Algorithms.</li><li>Design, build, and maintain secure, efficient, and scalable blockchain infrastructure.</li><li>Work on cryptography advancements to bolster Web3 adoption.</li><li>Troubleshoot and resolve cryptographic and blockchain-related issues.</li></ul><h2>Requirements:</h2><ul><li>Strong proficiency in Typescript and Rust</li><li>Knowledge of cryptographic primitives.</li><li>Extensive experience with blockchain technologies, smart contract development, and security.</li><li>Understanding of Zero-Knowledge Proofs, Multi-Party Computations, commitment, and signature schemes.</li><li>Familiarity with Account Abstraction (AA) wallets.</li><li>Profound knowledge of Ethereum, EVM-compatible chains, Layer 2 solutions, and related technologies.</li><li>Proven problem-solving skills, attention to detail, and passion for developing robust, secure systems.</li><li>Demonstrable commitment to fostering Web3 adoption through advanced cryptographic solutions.</li></ul><p>In this role, you&rsquo;ll be an integral part of a dynamic team focused on building next-generation cryptographic technologies to enhance the functionality, security, and user experience of Web3. Your work will help us push the boundaries of current Web3 capabilities and catalyze broader adoption of decentralized systems. Compensation includes competitive salary and equity.</p>",
+    "createdOn": "2023-08-18",
+    "companyId": 21
+}

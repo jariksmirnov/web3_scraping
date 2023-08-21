@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Head of Marketing - Flow Blockchain",
+    "slug": "head-of-marketing---flow-blockchain-dapperlabs",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Head of Marketing - Flow Blockchain\",\n      \"description\" : \"<p>Dapperlabs is hiring a full-time head of marketing - flow blockchain</p>\",\n      \"datePosted\" : \"2023-01-21\",\n      \"validThrough\" : \"2023-3-22 13:06\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Dapperlabs\",\n        \"sameAs\" : \"https://www.dapperlabs.com/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1671163157060x366618427964444400/Dapper_labs.png\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Canada (Remote)\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Canada (Remote)",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Dapperlabs is hiring a full-time head of marketing - flow blockchain</p>",
+    "createdOn": "2023-01-21",
+    "companyId": 47
+}

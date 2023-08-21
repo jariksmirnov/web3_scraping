@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Software Engineer, Front-end (React)",
+    "slug": "software-engineer-front-end-react-orderly-network",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Software Engineer, Front-end (React)\",\n      \"description\" : \"<p>Orderly Network is hiring a full-time software engineer, front-end (react)</p>\",\n      \"datePosted\" : \"2023-01-24\",\n      \"validThrough\" : \"2023-3-25 07:14\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Orderly Network\",\n        \"sameAs\" : \"https://orderly.network/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1674544210145x171733620743819800/b0qqsgudvqs4krkvfzwl.avif\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Worldwide\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Worldwide",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Orderly Network is hiring a full-time software engineer, front-end (react)</p>",
+    "createdOn": "2023-01-24",
+    "companyId": 44
+}

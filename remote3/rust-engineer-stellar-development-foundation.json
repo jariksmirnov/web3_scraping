@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Rust Engineer",
+    "slug": "rust-engineer-stellar-development-foundation",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Rust Engineer\",\n      \"description\" : \"<p>Stellar Development Foundation is hiring a full-time rust engineer</p>\",\n      \"datePosted\" : \"2023-01-24\",\n      \"validThrough\" : \"2023-3-25 07:21\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Stellar Development Foundation\",\n        \"sameAs\" : \"https://stellar.org/foundation\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1674708771556x418214422146552240/stellar.png\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"New York, USA  (Remote)\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "New York, USA  (Remote)",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Stellar Development Foundation is hiring a full-time rust engineer</p>",
+    "createdOn": "2023-01-24",
+    "companyId": 43
+}

@@ -46,7 +46,7 @@ def scraping_urls_myweb3(url):
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
             links_list.append(link)
-            print(f"Adding in db new link number {len(links_list)}")
+            print(f"Adding in my web3 db new link number {len(links_list)}")
 
             # save links list back to excel
             links_data = {'link': links_list}
@@ -129,7 +129,7 @@ def main():
 
         tags = data_list[2]
 
-        print(row, 'type json', type(json_data))
+        print(row, 'myweb3', type(json_data))
 
         # work with companies db
 

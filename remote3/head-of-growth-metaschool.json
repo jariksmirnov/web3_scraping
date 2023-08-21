@@ -1,0 +1,18 @@
+{
+    "id": null,
+    "title": "Head of Growth",
+    "slug": "head-of-growth-metaschool",
+    "jobType": "FULL-TIME",
+    "role": "\n",
+    "tags": "\n    {\n      \"@context\" : \"https://schema.org/\",\n      \"@type\" : \"JobPosting\",\n      \"title\" : \"Head of Growth\",\n      \"description\" : \"<p>Metaschool is hiring a full-time head of growth</p>\",\n      \"datePosted\" : \"2023-01-23\",\n      \"validThrough\" : \"2023-3-24 14:14\",\n      \"employmentType\" : \"FULL-TIME\",\n      \"hiringOrganization\" : {\n        \"@type\" : \"Organization\",\n        \"name\" : \"Metaschool\",\n        \"sameAs\" : \"https://metaschool.so/\",\n        \"logo\" : \"//s3.amazonaws.com/appforest_uf/f1674483069016x508674134691749000/637aee6c031d612036c37285_cQC4md0X68TonKMWfCNqWf_vQ9DXrxd-MgfNpZupJrs.jpeg\"\n      },\n       \"applicantLocationRequirements\": {\n    \"@type\": \"Country\",\n    \"name\": \"Worldwide\"\n  },\n  \"jobLocationType\": \"TELECOMMUTE\",\n      \"baseSalary\": {\n        \"@type\": \"MonetaryAmount\",\n        \"currency\": \"USD\",\n        \"value\": {\n          \"@type\": \"QuantitativeValue\",\n          \"minValue\":0,\n          \"maxValue\":0,\n          \"unitText\": \"YEAR\"\n        }\n      }\n    }\n    ",
+    "compensationMin": 0,
+    "compensationMax": 0,
+    "location": "Worldwide",
+    "applyLink": "",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "<p>Metaschool is hiring a full-time head of growth</p>",
+    "createdOn": "2023-01-23",
+    "companyId": 45
+}

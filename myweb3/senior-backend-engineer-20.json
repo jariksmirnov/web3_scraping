@@ -1,0 +1,24 @@
+{
+    "id": 3278,
+    "title": "Senior Backend Engineer",
+    "slug": "senior-backend-engineer-20",
+    "jobType": "full-time",
+    "role": "back-end",
+    "tags": [
+        "back-end",
+        "engineering",
+        "golang",
+        "rust",
+        "senior"
+    ],
+    "compensationMin": "70000",
+    "compensationMax": "190000",
+    "location": "",
+    "applyLink": "https://jobs.lever.co/omni-network/12d0d77d-0a78-459c-9328-4896dc8faefa/",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "About</h3>\nWe\u2019re building Omni: a platform allowing developers to deploy applications across all rollups without fragmenting liquidity. We\u2019re looking for founding team members to help us bring this ambitious vision to life.</p>\n\u00a0</p>\nWe\u2019re a team who already built a platform that processed over $70M leading to our $18M fundraise from top investors including Pantera, Two Sigma Ventures, Coinbase Ventures alongside angel investors including Stani Kulechov (founder of Aave), Sandeep Nailwal (cofounder of Polygon) and more.</p>\n\u00a0</p>\nIf you are looking to join a passionate, motivated team to help create software that levels the playing field for people across the globe join us at Omni. We\u2019re building a future that re-centers the individual in the internet.</p>\nAbout the Role:</h3>\nA senior backend engineer is responsible for the design and implementation of foundational components of Omni\u2019s stack, in particular the chain indexer and other backend services, while also having responsibilities to collaborate with the wider engineering team to improve our overall architecture and code quality. There will be opportunities to learn and contribute across the stack.</p>\nResponsibilities</h3>\n\nDevelop our chain indexer and other backend services from the design stage all the way to production ready implementations, primarily in golang</li>\nProductionize deployments for our testnets and eventually mainnet, utilizing platforms such as Terraform and AWS</li>\nImplement and optimize CI/CD to improve build and test times. Detect and improve performance, stability for microservices.</li>\nImprove the design of peer\u2019s architecture through thoughtful, professionally communicated feedback.</li>\nContribute to open source projects and play a role in building out the crypto ecosystem at large.</li>\n</ul>\nRequirements</h3>\n\n3-7 years of experience in a backend role</li>\nSignificant experience with a systems language like Go (preferred), Rust, or C++</li>\nexperience with Docker and Kubernetes</li>\nExperience building and maintaining a production system at scale</li>\nExtensive experience managing the software development life cycle for medium to large projects</li>\nExperience with AWS, GCP or similar cloud providers</li>\nDesire to keep up with modern best practices in software development and crypto, and shape our tech stack as we build out new systems and services</li>\n</ul>\n\u00a0</p>\nOur benefits include competitive compensation, early stage equity allocations, team outings, wellness stipends, 401k with employer matching (for US employees), unlimited PTO. In addition, you\u2019ll join a team of high caliber engineers who are innovating at the frontier of crypto that all work collaboratively to help one another accelerate their growth.</p>\n\u00a0</p>\nWe are a mission driven company. We believe deeply that through software engineering we can build a self-sovereign society. In our day to day, we make decisions based upon our company values of Individual Autonomy, Long-Term Orientation and Open Access.</p>\n\u00a0</p>\nThe future belongs to all of us, independent of our origins. Omni is an equal opportunity employer and does not discriminate on the basis of race, religion, color, sexual orientation, gender or any other status protected under federal, state or local law.</p>\n",
+    "createdOn": "2023-08-17T20:55:33",
+    "companyId": 66
+}

@@ -25,7 +25,6 @@ def scraping_urls_remote3(url):
     links_list = df['link'].tolist()
 
     items = get_job_link_remote3(url=url)
-    print(items)
 
     df = pd.DataFrame()
 
@@ -42,7 +41,7 @@ def scraping_urls_remote3(url):
             df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
             links_list.append(link)
-            print(f"Adding in db new link number {len(links_list)}")
+            print(f"Adding in remote3 db new link number {len(links_list)}")
 
             # save links list back to excel
             links_data = {'link': links_list}
@@ -118,7 +117,7 @@ def main():
 
         tags = data_list[1]
 
-        print(row, 'type json', type(json_data))
+        print(row, 'remote3', type(json_data))
 
         # work with companies db
 

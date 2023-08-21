@@ -1,0 +1,24 @@
+{
+    "id": "string(optional)",
+    "title": "Marketing Director",
+    "slug": "marketing_gridplus-marketing-director",
+    "jobType": [
+        "FULL_TIME"
+    ],
+    "role": "Marketing",
+    "tags": [
+        "Growth Marketing",
+        "Marketing Manager",
+        "Non-Tech"
+    ],
+    "compensationMin": 120000.0,
+    "compensationMax": 165000.0,
+    "location": "",
+    "applyLink": "mailto:careers@gridplus.io?subject=Marketing%20Director%20at%20GridPlus%20on%20Cryptocurrency%20Jobs",
+    "sticky": "boolean",
+    "highlight": "boolean",
+    "remote": true,
+    "description": "    <p>Hi there. We&rsquo;re GridPlus. We&rsquo;re a small team of experts in decentralized networks, embedded firmware, and applied cryptography. We&rsquo;ve built the world&rsquo;s most secure and flexible cryptocurrency hardware wallet, the Lattice1, and we&rsquo;d like your help in making it the world&rsquo;s best tool for securely storing and using your crypto.</p><p>Founded in 2017, GridPlus is pioneering web3-focused hardware security through its cryptocurrency hardware wallet, the Lattice1. By joining GridPlus, you will have the chance to work with cutting-edge technology, significantly influence the cryptocurrency and web3 technology landscape, and contribute to shaping the future of our enterprise.</p><p>We offer a supportive and innovative environment, committed to lifelong learning and collaboration. Join us to amplify your career and make a notable impact on the advancement of cryptocurrency and web3 solutions.</p><h2>Responsibilities include:</h2><p>GridPlus is in search of a dynamic, results-driven Marketing Director to spearhead our sales and marketing strategies. This role presents an unparalleled opportunity to contribute to the growth and success of our organization, particularly in regard to our leading product - the Lattice1 hardware wallet.</p><p>As the Marketing Director, you will be integral to the propagation of our cryptocurrency and web3 software solutions. Your leadership will shape our product visibility, improve our market position, and drive sustainable financial growth. You will also collaborate with our product and engineering teams to align product development with market demand and customer needs.</p><ul><li>Lead the development and execution of strategic marketing and sales plans that enhance brand awareness, drive customer acquisition, and improve product adoption.</li><li>Liaise closely with product development teams to ensure our product offerings, particularly the Lattice1 hardware wallet, align with market trends and consumer demands.</li><li>Work collaboratively with sales teams to meet and exceed business objectives, identifying opportunities for sales growth in new and existing markets.</li><li>Supervise the production of all promotional materials and marketing campaigns, ensuring brand consistency and a compelling value proposition.</li><li>Analyze market trends and competitors, applying findings to drive innovative marketing strategies.</li><li>Deliver regular reports of campaign results, including web analysis and the evaluation of KPIs.</li></ul><h2>Your qualifications and expertise:</h2><ul><li>Proven experience as a Marketing Director or other senior role, preferably in the tech or fintech sectors.</li><li>Extensive understanding of marketing and sales strategies, and a track record of driving revenue growth.</li><li>Experience with cryptocurrency and blockchain technologies, including understanding of cryptocurrency wallets like our Lattice1, is a significant plus.</li><li>Excellent leadership and organizational abilities, with proven skills in project management and team coordination.</li><li>Strong analytical and creative thinking skills, with experience in data-driven decision making.</li><li>Exceptional communication and interpersonal skills.</li><li>An understanding of web3 integrations and decentralized applications (dApps) is highly beneficial.</li></ul><h2>GridPlus offers:</h2><ul><li>A flexible remote work environment</li><li>Employee benefits for full-time employees</li><li>Unlimited PTO</li><li>Cash Compensation: $120,000 - $165,000</li><li>Equity Compensation: Up to 1% of stock options as of GridPlus&rsquo; latest 409A valuation</li><li>Work Location: Remote (UTC -9 and +1 is preferred)</li><li>Position Type: Full-Time</li></ul><p><strong>Location in a time zone between UTC -9 and +1 is desired.</strong></p><h2>How to apply</h2><p>Interested? Send your resume to   <a>careers@gridplus.io</a>. Please feel free to provide anything else you think is relevant such as coding samples (Github, Stackoverflow, etc.) or blog posts, we&rsquo;d love to take a look!</p>",
+    "createdOn": "2023-08-17",
+    "companyId": 23
+}
