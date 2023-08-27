@@ -13,7 +13,7 @@ from myweb3 import main as main_myweb3
 # list of info folders to create
 folders = ['web3.career', 'cryptocurrencyjobs', 'linkedin', 'remote3', 'cryptojob', 'myweb3', ]
 pause = 1 * 60  # pause between changing sites
-period = 60 * 60  # 1 period to scrap new items
+period = 60 * 60  # 1hrs period to scrap new items
 
 for folder in folders:
     if not os.path.exists(folder):

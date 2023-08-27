@@ -28,8 +28,9 @@ def scraping_urls_cryptojob(url):
 
     soup = BeautifulSoup(page.content, 'html.parser')
 
-    marker = 'JobPreviewInline_jobTitle__WYzmv text-brand-blue dark:text-white'
-    items = soup.find_all('a', class_=marker)
+    # marker = 'jobTitle__WYzmv' # old marker
+    marker = 'Open in a new'
+    items = soup.find_all(title=lambda value: value and marker in value)
 
     df = pd.DataFrame()
 
@@ -38,6 +39,7 @@ def scraping_urls_cryptojob(url):
         if item.get('href'):
             pre_link = item.get('href')
             link = url_cryptojob + pre_link
+
         else:
             pre_link = ''
             link = ''
@@ -85,6 +87,7 @@ def main():
     # getting and saving url list
 
     url = f'{url_cryptojob}/web3'
+    print(url)
     df = scraping_urls_cryptojob(url=url)
 
     # save links to formatted xlsx

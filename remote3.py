@@ -8,6 +8,7 @@ from datetime import date
 from companies import companies_save
 from job_link_r import get_job_link_remote3
 
+REQUEST_TIMEOUT = (10, 20)  # 10s connection timeout, 20s read timeout
 
 headers = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:109.0) Gecko/20100101 Firefox/115.0",
            "Accept-Encoding": "gzip, deflate",
@@ -29,41 +30,46 @@ def scraping_urls_remote3(url):
     df = pd.DataFrame()
 
     for item in items:
-        link = item
-        if link not in links_list:
-            slug = link[31:]
+        if 'jobs' in item:
+            link = item
+            if link not in links_list:
+                slug = link[31:]
 
-            data = {
-                'slug': slug,
-                'link': link,
-            }
+                data = {
+                    'slug': slug,
+                    'link': link,
+                }
 
-            df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
+                df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
 
-            links_list.append(link)
-            print(f"Adding in remote3 db new link number {len(links_list)}")
+                links_list.append(link)
+                print(f"Adding in remote3 db new link number {len(links_list)}")
 
-            # save links list back to excel
-            links_data = {'link': links_list}
-            df_save = pd.DataFrame(links_data)
-            df_save.to_excel(file_links_path, index=False)
+                # save links list back to excel
+                links_data = {'link': links_list}
+                df_save = pd.DataFrame(links_data)
+                df_save.to_excel(file_links_path, index=False)
 
     return df
 
 
 def getting_data_remote3(url):
-    page = requests.get(url, headers=headers)
-    soup = BeautifulSoup(page.content, 'html.parser')
+    try:
+        page = requests.get(url, timeout=REQUEST_TIMEOUT)
+        soup = BeautifulSoup(page.content, 'html.parser')
 
-    # get basic info
-    item = soup.find('script', type='application/ld+json').get_text()
+        # get basic info
+        item = soup.find('script', type='application/ld+json').get_text()
 
-    # get specific items (role, tags, apply link)
-    tags = []
+        # get specific items (role, tags, apply link)
+        tags = []
 
-    soup = soup.prettify()
-    soup = soup.replace('\U0001f4af', '')
-    return soup, item, tags
+        soup = soup.prettify()
+        soup = soup.replace('\U0001f4af', '')
+        return soup, item, tags
+
+    except requests.exceptions.HTTPError as e:
+        print(f"Error when loading page {url}: {e}")
 
 
 # # # MAIN # # #

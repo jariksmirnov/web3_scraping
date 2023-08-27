@@ -70,17 +70,19 @@ def getting_data_linkedin(url):
 
     # get info about company
     name = soup.find('a', class_="topcard__org-name-link topcard__flavor--black-link")
-    name = name.get_text().strip()
+    if name:
+        name = name.get_text().strip()
 
     website = soup.find('a', class_="topcard__org-name-link topcard__flavor--black-link")
-    website = website.get('href')
+    if website:
+        website = website.get('href')
 
-    page_comp = requests.get(website, headers=headers)
+        page_comp = requests.get(website, headers=headers)
 
-    soup_comp = BeautifulSoup(page_comp.content, 'html.parser')
+        soup_comp = BeautifulSoup(page_comp.content, 'html.parser')
 
-    website = soup_comp.find('a', class_="link-no-visited-state hover:no-underline")
-    website = website.get_text().strip()
+        website = soup_comp.find('a', class_="link-no-visited-state hover:no-underline")
+        website = website.get_text().strip()
 
     data_comp = {
         "name": name,
@@ -93,24 +95,25 @@ def getting_data_linkedin(url):
 
     # get info about job
     title = soup.find('h1', class_="top-card-layout__title font-sans text-lg papabear:text-xl font-bold leading-open text-color-text mb-0 topcard__title")
-    title = title.get_text().strip()
+    if title:
+        title = title.get_text().strip()
 
     items = soup.find_all(class_="description__job-criteria-text description__job-criteria-text--criteria")
-    items = [item.get_text().strip() for item in items]
 
-    if items[0] != 'Contract':
-        job_type = items[1]
-        role = items[2]
-        tags = [word.strip() for word in items[3].split(',')]
-    else:
-        job_type = items[0]
-        role = ''
-        tags = ''
+    if items:
+        items = [item.get_text().strip() for item in items]
+        if items[0] != 'Contract' and len(items) > 1:
+            job_type = items[1]
+            role = items[2]
+            tags = [word.strip() for word in items[3].split(',')]
+        else:
+            job_type = items[0]
+            role = ''
+            tags = ''
 
-
-
-    description = soup.find('div', class_='show-more-less-html__markup show-more-less-html__markup--clamp-after-5 relative overflow-hidden')
-    description = description.get_text().strip()
+    pre_description = soup.find('div', class_='show-more-less-html__markup show-more-less-html__markup--clamp-after-5 relative overflow-hidden')
+    description_text = pre_description.get_text().strip()
+    description = ''.join(str(tag) for tag in pre_description.contents)
 
     location = soup.find('span', class_='topcard__flavor topcard__flavor--bullet')
     location = location.get_text().strip()
@@ -130,9 +133,12 @@ def getting_data_linkedin(url):
         "highlight": '',
         # "remote": remote,
         "description": description,
+        "description_text": description_text,
         "createdOn": '',
         # "companyId": company_id
     }
+
+    # this three missing items will be added later, in main function
 
     soup = soup.prettify()
     soup = soup.replace('\U0001f4af', '')
@@ -194,12 +200,15 @@ def main():
         # saving info about company and getting company_id
         company_id = companies_save(data_comp=data_comp)
 
-        if any(word in data.get('description').lower() for word in ["remote", "homework"]):
+        if any(word in data.get('description_text').lower() for word in ["remote", "homework"]):
             remote = True
         else:
             remote = False
 
         data.update({"slug": slug, "remote": remote, "companyId": company_id})
+
+        if 'description_text' in data:
+            del data['description_text']
 
         # Write data to the JSON file
         output_file = f".//linkedin/{slug}.json"

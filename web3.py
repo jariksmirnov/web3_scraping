@@ -106,10 +106,13 @@ def getting_data_web3(url):
     else:
         role = ''
 
+    pre_description = soup.find('div', style='word-wrap: break-word;')
+    description_html = ''.join(str(tag) for tag in pre_description.contents)
+
     soup = soup.prettify()
     soup = soup.replace('\U0001f4af', '')
 
-    return soup, item, tags, role
+    return soup, item, tags, role, description_html
 
 
 # # # MAIN # # #
@@ -161,6 +164,7 @@ def main():
         item = data_list[1]
         tags = data_list[2]
         role = data_list[3]
+        description_html = data_list[4]
         apply_link = get_apply_link_web3(url=url)
 
         json_data = json.loads(item)
@@ -201,6 +205,7 @@ def main():
             "highlight": '',
             "remote": remote,
             "description": json_data.get('description'),
+            "description_html": description_html,
             "createdOn": json_data.get('datePosted'),
             "companyId": company_id
         }
